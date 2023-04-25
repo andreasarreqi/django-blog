@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['codestar-django-blog1.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['codestar-django-blog1.herokuapp.com', '8000-andreasarreqi-django-blo-o5qm8ucrc4.us2.codeanyapp.com']
 
 
 # Application definition
@@ -62,7 +62,7 @@ ROOT_URLCONF = 'codestar.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['TEMPLATES_DIR'],
+        'DIRS': [TEMPLATES_DIR],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
